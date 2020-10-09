@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "consul": "^0.38.0"
+    "consul": "^0.38.0",
+    "express": "^4.17.1"
   }
 }
