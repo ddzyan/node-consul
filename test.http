@@ -1,17 +1,17 @@
 ### 删除所有注册的 consul client
-GET http://172.16.0.39:3001/bulkDeregister HTTP/1.1
+GET http://127.0.0.1:3001/bulkDeregister HTTP/1.1
 
 ### 批量注册已配置好的 consul client
-GET http://172.16.0.39:3001/bulkRegister HTTP/1.1
+GET http://127.0.0.1:3001/bulkRegister HTTP/1.1
 
 ### 获取指定名称的健康服务列表
-GET http://172.16.0.39:3001/getHealthService?name=cmdWork HTTP/1.1
+GET http://127.0.0.1:3001/getHealthService?name=cmdWork HTTP/1.1
 
 ### 删除指定服务
-GET http://172.16.0.39:3001/deregister?id=demo-172.16.0.61:5000 HTTP/1.1
+GET http://127.0.0.1:3001/deregister?id=demo-172.16.0.61:5000 HTTP/1.1
 
 ### 测试fabio
-GET  http://10.10.0.12:9999/health
+GET  http://10.8.8.15:9999/health
 Host: a.com
 
 
